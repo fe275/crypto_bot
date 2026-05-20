@@ -50,3 +50,12 @@ def generate_signal(coin_id):
 
     CACHE[key] = result
     return result
+
+
+def get_usd_price():
+    try:
+        r = requests.get("https://baha24.com/api/v1/price?code=usd", timeout=5)
+        data = r.json()
+        return int(data["price"])  # قیمت به تومان
+    except:
+        return 180000  # fallback
