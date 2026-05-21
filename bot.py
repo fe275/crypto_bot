@@ -132,7 +132,7 @@ def signal_button(update, context):
     text = (
         f"🪙 سیگنال برای: {result['symbol']}\n"
         f"💵 قیمت فعلی: {format_price(result['price'])}$\n"
-        f"🏷️ قیمت به تومان: {price_toman:,.0f}\n"
+        f"🏷️ قیمت به تومان: {price_toman:,.0f} تومان\n"
         f"📈 سیگنال: {result['signal']}\n"
         f"🎯 اعتماد: {result['confidence']}\n"
         f"📝 دلایل:\n{reasons}"

@@ -1,10 +1,13 @@
 import requests
 from difflib import get_close_matches
+from .fa_map import FA_TO_EN
+from .normalize_query import normalize_query
 
 CACHE = {}
 
 
 def search_coins(query):
+    query = normalize_query(query)
     query = query.lower().strip()
 
     # Auto-clean (usdt, perp, 3l, 3s, up, down)
