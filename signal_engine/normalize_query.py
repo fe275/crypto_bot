@@ -19,11 +19,8 @@ def normalize_query(q):
             best_score = score
             best_match = fa_word
 
-    # شرط مهم:
     # فقط اگر شباهت خیلی زیاد بود → قبول
-    # مثلاً 85٪ به بالا
     if best_score >= 85:
         return FA_TO_EN[best_match]
 
-    # در غیر این صورت یعنی کلمه اصلاً کوین نیست
-    return None
+    return q

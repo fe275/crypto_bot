@@ -1,112 +1,108 @@
 FA_TO_EN = {
     # --- Bitcoin ---
-    "بیت": "bitcoin",
+    "بیت": "bit",
     "بیت کوین": "bitcoin",
     "بیتکویین": "bitcoin",
     "بیت کویین": "bitcoin",
-    "بی تی سی": "bitcoin",
-    "بی‌تی‌سی": "bitcoin",
+    "بی تی سی": "btc",
+    "بی‌تی‌سی": "btc",
 
     # --- Ethereum ---
     "اتریوم": "ethereum",
-    "اتر": "ethereum",
+    "اتر": "ether",
     "اترییوم": "ethereum",
     "ایتریوم": "ethereum",
-    "ای تی اچ": "ethereum",
-    "ای‌تی‌اچ": "ethereum",
+    "ای تی اچ": "eth",
+    "ای‌تی‌اچ": "eth",
 
     # --- Solana ---
     "سولانا": "solana",
-    "سول": "solana",
+    "سول": "sol",
     "سولاناا": "solana",
     "سولانا کوین": "solana",
 
     # --- Tether ---
     "تتر": "tether",
-    "یو اس دی تی": "tether",
+    "یو اس دی تی": "usdt",
     "usdt": "tether",
 
 
     # --- Dogecoin ---
-    "دوج": "dogecoin",
+    "دوج": "doge",
     "دوج کوین": "dogecoin",
     "دوج کویین": "dogecoin",
-    "داج": "dogecoin",
+    "داج": "doge",
 
     # --- Shiba Inu ---
-    "شیبا": "shiba-inu",
+    "شیبا": "shiba",
     "شیبا اینو": "shiba-inu",
-    "شیباا": "shiba-inu",
-    "شیبا کوین": "shiba-inu",
+    "شیباا": "shiba",
+    "شیبا کوین": "shiba",
 
     # --- Tron ---
     "ترون": "tron",
-    "تی آر ایکس": "tron",
+    "تی آر ایکس": "trx",
     "trx": "tron",
 
     # --- Ripple / XRP ---
     "ریپل": "ripple",
-    "ایکس آر پی": "ripple",
-    "ایکس آر پی کوین": "ripple",
+    "ایکس آر پی": "xrp",
+    "ایکس آر پی کوین": "xrp",
 
     # --- Cardano ---
     "کاردانو": "cardano",
-    "آدا": "cardano",
-    "ادا": "cardano",
+    "آدا": "ada",
+    "ادا": "ada",
 
     # --- Litecoin ---
-    "لایت": "litecoin",
+    "لایت": "lite",
     "لایت کوین": "litecoin",
-    "ال تی سی": "litecoin",
+    "ال تی سی": "ltc",
 
     # --- BNB ---
-    "بی ان بی": "binancecoin",
-    "بایننس": "binancecoin",
+    "بی ان بی": "bnb",
+    "بایننس": "binance",
     "بایننس کوین": "binancecoin",
 
     # --- Avalanche ---
     "اولانچ": "avalanche-2",
     "آوالانچ": "avalanche-2",
-    "avax": "avalanche-2",
+
 
     # --- Polkadot ---
     "پولکادات": "polkadot",
-    "دات": "polkadot",
+    "دات": "dot",
 
     # --- Chainlink ---
     "چین لینک": "chainlink",
-    "لینک": "chainlink",
+    "لینک": "link",
 
     # --- Polygon ---
-    "پالیگان": "matic-network",
-    "ماتیک": "matic-network",
+    "پالیگان": "polygon",
+    "ماتیک": "matic",
 
     # --- Uniswap ---
-    "یونی": "uniswap",
+    "یونی": "uni",
     "یونی سواپ": "uniswap",
 
     # --- Pepe ---
     "پپه": "pepe",
-    "pepe": "pepe",
 
     # --- Ton ---
-    "تون": "the-open-network",
-    "تون کوین": "the-open-network",
-    "ton": "the-open-network",
+    "تون": "ton",
+    "تون کوین": "toncoin",
+    "the open network": "toncoin",
 
     # --- Sui ---
     "سویی": "sui",
     "سوی": "sui",
-    "sui": "sui",
 
     # --- Aptos ---
     "اپتوس": "aptos",
-    "apt": "aptos",
 
     # --- Arbitrum ---
     "آربیتروم": "arbitrum",
     "اربیتروم": "arbitrum",
-    "arb": "arbitrum",
 
     # --- Optimism ---
     "آپتیمیزم": "optimism",
@@ -124,22 +120,20 @@ FA_TO_EN = {
 
     # --- Cosmos ---
     "کازموس": "cosmos",
-    "اتم": "cosmos",
+    "اتم": "atom",
 
     # --- Near ---
     "نیر": "near",
     "نیر پروتکل": "near",
 
     # --- Hedera ---
-    "هدرا": "hedera-hashgraph",
-    "هدر": "hedera-hashgraph",
+    "هدرا": "hedera",
+    "هدر": "heder",
     "hbar": "hedera-hashgraph",
 
     # --- Sonic ---
     "سونیک": "sonic",
-    "سون": "sonic",
     "سونی": "sonic",
-    "sonic": "sonic",
 }
 
 # FA_AUTOCOMPLETE = list(FA_TO_EN.keys())

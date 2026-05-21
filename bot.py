@@ -120,12 +120,13 @@ def signal_button(update, context):
 
     coin_id = query.data.split(":", 1)[1]
     result = generate_signal(coin_id)
-    usd_price = get_usd_price()
-    price_toman = result["price"] * usd_price
 
     if not result:
         query.edit_message_text("خطا در دریافت سیگنال.")
         return
+
+    usd_price = get_usd_price()
+    price_toman = result["price"] * usd_price
 
     reasons = "\n".join([f"- {r}" for r in result["reason"]])
 
